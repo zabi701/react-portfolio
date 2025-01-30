@@ -1,5 +1,6 @@
 import React from 'react'
 import skills from './data/skills.json'
+import './responsive.css'
 const Skills = () => {
   return (
     <div className="container skills">

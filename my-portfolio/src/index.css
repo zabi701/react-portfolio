@@ -17,6 +17,8 @@ a{
   display:flex;
   justify-content:space-between;
   align-items:center;
+  position:fixed;
+  width:100%;
 }
 .nav_bar .nav_items
 {
@@ -165,4 +167,8 @@ width:900px;
 {
   background-color:var(--bg-color);
   box-shadow:var(--box-shadow);
+}
+.data
+{
+  margin-left:10px;
 }

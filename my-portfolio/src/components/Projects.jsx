@@ -1,9 +1,11 @@
 import React from 'react'
 import projects from './data/projects.json'
+import './Navbar'
+import './responsive.css'
 
 const Projects = () => {
   return (
-    <div className="container projects my-3">
+    <div className="container projects my-3" id='projects'>
       <h1>PROJECTS</h1>
       <div className="row d-flex justify-content-center align-content-center">
         {projects.map((data) => {

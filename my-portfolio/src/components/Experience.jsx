@@ -1,8 +1,10 @@
 import React from 'react'
 import experience from './data/experience.json'
+import './Navbar'
+import './responsive.css'
 const Experience = () => {
   return (
-    <div className="container ex">
+    <div className="container ex" id='experience'>
       <h1>EXPERIENCE</h1>
       {
       experience.map((data)=>{

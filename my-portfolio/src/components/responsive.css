@@ -1,0 +1,17 @@
+@media screen and (max-width:1197px)
+{
+    .nav_bar
+    {
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+    }
+    .home .left
+    {
+        width:500px;
+    }
+    .data
+    {
+        margin-left:20px;
+    }
+}

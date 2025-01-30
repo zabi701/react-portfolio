@@ -4,9 +4,11 @@ import { CiFacebook } from "react-icons/ci";
 import { CiLinkedin } from "react-icons/ci";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
+import './Navbar'
+import './responsive.css'
 const Contact = () => {
   return(
-    <div className="container contact">
+    <div className="container contact" id='contact'>
       <h1>CONTACT</h1>
       <div className="contact-icon">
         <a href='https://instagram.com' target='_blank' className='items'>
